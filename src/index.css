@@ -85,7 +85,7 @@ body::-webkit-scrollbar-thumb {
   padding: 50px 0 400px 0;
   height: 100vh;
   box-sizing: border-box;
-  opacity: 0;
+  /* opacity: 0; */
   position: relative;
 }
 
@@ -128,6 +128,7 @@ body::-webkit-scrollbar-thumb {
   padding: 8px 16px;
   border-radius: 980px;
   margin: 15px;
+  border-style: none;
 }
 
 .display-section .back-button {
@@ -253,6 +254,7 @@ nav .link-styled {
   padding: 8px 16px;
   border-radius: 980px;
   margin: 0 14px;
+  border-style: none;
 }
 
 .jumbotron-section .link {
@@ -386,7 +388,7 @@ nav .link-styled {
   padding: 8px 16px;
   border-radius: 980px;
   margin: 0 14px;
-  border: none;
+  border-style: none;
 }
 
 .sound-section .link {
